@@ -1,0 +1,18 @@
+function Car(marca, model) {
+    this.marca = marca;
+    this.model = model;
+}
+
+Car.prototype.afiseazaDetalii = function () {
+    console.log(`Mașina este un ${this.marca} ${this.model}`);
+};
+
+// Crearea unei instanțe a constructorului Car
+let masina1 = new Car("Toyota", "Corolla");
+masina1.afiseazaDetalii(); // "Mașina este un Toyota Corolla"
+
+let masina2 = new Car("Honda", "Civic");
+masina2.afiseazaDetalii(); // "Mașina este un Honda Civic"
+
+let masina3 = new Car("Nissan", "Qashqai");
+masina3.afiseazaDetalii(); // "Mașina este un Honda Civic"

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clase si Obiecte</title>
+</head>
+<body>
+
+    <script>
+        class Person {
+            constructor(firstName = "Will", lastName = "Shik"){
+                this.firstName = firstName;
+                this.lastName = lastName;
+                this.skils = [];
+            }
+            //Metode
+            getFullName(){
+                return `${this.firstName} ${this.lastName}`;
+            }
+            get getAllSkils() {
+                return this.skils;
+            }
+            set setSkill (skill) {
+                this.skils.push(skill);
+            }
+        }
+
+        class Student extends Person {
+            constructor(firstName, lastName, school){
+                super(firstName, lastName);
+                this.school = school;
+            }
+        }
+
+        const per1 = new Person("John", "Doe");
+        const per2 = new Person();
+        const st1 = new Student("Jack", "Seed", "NY School DK");
+        st1.setSkill = "Coding";
+
+        console.log(per1);
+        console.log(per2.getFullName());
+        console.log(st1);
+    </script>
+</body>
+</html>
