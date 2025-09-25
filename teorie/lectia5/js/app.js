@@ -7,7 +7,7 @@ const getDataFromURL = async (url) => {
 }
 
 const cardTemplate = (product) => {
-    return `<div class="bg-white rounded-xl shadow-lg p-6 flex flex-col items-start hover:shadow-2xl transition-shadow duration-300">
+    return `<div class="bg-white rounded-md shadow-lg p-6 flex flex-col items-start hover:shadow-2xl transition-shadow duration-300">
             <h2 class="text-xl font-semibold text-sky-800 mb-2">${product.nume}</h2>
             <p class="text-sky-600 mb-1"><span class="font-medium">Departament:</span> ${product.departament}</p>
             <p class="text-sky-900 font-bold text-lg">Pret: ${product.pret} Mdl</p>
