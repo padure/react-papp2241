@@ -60,18 +60,7 @@
     <footer class="w-full mt-12 py-16 bg-sky-200 text-center text-sky-700 text-sm">
         &copy; 2025 Interogari de Retea. Toate drepturile rezervate.
     </footer>
-    <script>
-        const addProductsForm = document.querySelector('#add-products');
-        addProductsForm.addEventListener("submit", (e) => {
-            e.preventDefault();
-            const product = {
-                id: "1",
-                nume: e.target.nume.value,
-                departament: e.target.departament.value,
-                pret: parseFloat(e.target.pret.value)
-            };
-            console.log(product);
-        });
-    </script>
+    
+    <script src="./js/create.js" type="module"></script>
 </body>
 </html>
