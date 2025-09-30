@@ -13,6 +13,7 @@ const cardTemplate = (product) => {
             <p class="text-sky-900 font-bold text-lg">Pret: ${product.pret} Mdl</p>
             <div class="flex gap-2 mt-4">
                 <a href="edit.html?id=${product.id}" class="bg-sky-300 hover:bg-sky-200 text-white px-2 py-1 rounded">Edit</a>
+                <a href="show.html?id=${product.id}" class="bg-sky-400 hover:bg-sky-300 text-white px-2 py-1 rounded">Show</a>
                 <button data-id="${product.id}" class="delete-btn bg-sky-600 hover:bg-sky-400 text-white px-2 py-1 rounded">Delete</button>
             </div>
         </div>`;

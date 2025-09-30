@@ -25,16 +25,16 @@
       "pret": 899
     },
     {
-      "id": "5e8b082c-3697-54c4-b704-d3ad2c80fe79",
       "nume": "Small Steel Pizza",
       "departament": "Outdoors",
-      "pret": 407
+      "pret": "425",
+      "id": "5e8b082c-3697-54c4-b704-d3ad2c80fe79"
     },
     {
-      "id": "e6132405-3f2c-54c2-9649-e9666b432d65",
-      "nume": "Ergonomic Wooden Hat",
+      "nume": "Ergonomic Wooden Hat 2",
       "departament": "Sports",
-      "pret": 942
+      "pret": "1000",
+      "id": "e6132405-3f2c-54c2-9649-e9666b432d65"
     }
   ]
 }
