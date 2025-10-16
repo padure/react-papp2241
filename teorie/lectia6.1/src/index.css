@@ -1,0 +1,11 @@
+.bg-red{
+    background-color: red;
+}
+
+.border-red-1{
+    border: 1px solid red;
+}
+
+.p-1{
+    padding: 1rem;
+}
